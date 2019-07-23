@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PokéDex</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div id="app">
+
+        <img src="//hanashiro.github.io/pokedex/images/pokeball.svg" class="pokeball-back" v-rotate-on-scroll>
+        <router-view></router-view>
+
+    </div>
+
+    <script src="https://unpkg.com/vue/dist/vue.js" ></script>
+    <script src="https://unpkg.com/vue-router" ></script>
+
+    <script src="./js/services.js"></script>
+    <script src="./js/filters.js"></script>
+    <script src="./js/directives.js"></script>
+    <script src="./js/homepage-component.js"></script>
+    <script src="./js/about-page-component.js"></script>
+    <script src="./js/list-component.js"></script>
+    <script src="./js/routes.js"></script>    
+    <script src="./js/app.js"></script>
+</body>
+</html>
